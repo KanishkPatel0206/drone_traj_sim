@@ -1,66 +1,107 @@
-🚁 Drone Trajectory Simulation
+# 🚁 Drone Trajectory Simulation
 
-📌 Overview
+## 📌 Overview
+This project demonstrates basic drone control using the `pysimverse` simulation environment. The drone performs takeoff, speed adjustment, and iterative forward and lateral movements to create a diagonal trajectory pattern. 
 
-This project demonstrates basic drone control using the pysimverse
-simulation environment. The drone performs takeoff, speed adjustment,
-and iterative forward and lateral movements to create a diagonal
-trajectory pattern.
+It serves as a foundational step toward building autonomous drone systems involving path planning, environment mapping, and computer vision.
 
-It serves as a foundational step toward building autonomous drone
-systems involving path planning, environment mapping, and computer
-vision.
+---
 
-🎯 Features
+## 🎯 Features
+- Drone connection and initialization  
+- Controlled takeoff to a specified altitude  
+- Speed tuning for optimized motion  
+- Iterative forward and right movement  
+- Approximate diagonal trajectory generation  
+- Safe landing execution  
 
--   Drone connection and initialization
--   Controlled takeoff to a specified altitude
--   Speed tuning for optimized motion
--   Iterative forward and right movement
--   Approximate diagonal trajectory generation
--   Safe landing execution
+---
 
-🧠 Learning Outcomes
+## 🧠 Learning Outcomes
+- Understanding drone control APIs  
+- Basics of motion planning in 2D space  
+- Sequential vs combined movement concepts  
+- Simulation-based testing for robotics  
 
--   Understanding drone control APIs
--   Basics of motion planning in 2D space
--   Sequential vs combined movement concepts
--   Simulation-based testing for robotics
+---
 
-🎥 Demo
+## 🎥 Demo
 
-Video Demo: Add your link here
-GIF Preview: assets/demo.gif
-Screenshots: assets/image1.png, assets/image2.png
+### 🔹 Video Demo
+<!-- Replace with your video link -->
+[Watch Demo](#)
 
-🛠️ Tech Stack
+---
 
--   Python
--   PySimVerse
+### 🔹 GIF Preview
+<!-- Add your GIF inside assets folder -->
+![Drone Simulation](assets/demo.gif)
 
-📂 Project Structure
+---
 
-drone_traj_sim/ │── main.py │── README.md │── .gitignore │── LICENSE │──
-assets/ │ ├── demo.gif │ ├── image1.png │ └── image2.png
+### 🔹 Screenshots
+<img src="assets/image1.png" width="400"/>
+<img src="assets/image2.png" width="400"/>
 
-🚀 How to Run
+---
 
-1.  Clone the repository
-2.  Install dependencies: pip install pysimverse
-3.  Run: python main.py
+## 🛠️ Tech Stack
+- Python  
+- PySimVerse  
 
+---
+
+## 📂 Project Structure
+
+drone_traj_sim/
+│── main.py
+│── README.md
+│── .gitignore
+│── LICENSE
+│── assets/
+│ ├── demo.gif
+│ ├── image1.png
+│ └── image2.png
+
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/KanishkPatel0206/drone_traj_sim.git
+cd drone_traj_sim
+2. Install dependencies
+pip install pysimverse
+3. Run the script
+python main.py
 🔄 Future Improvements
-
--   True diagonal motion using velocity control
--   Path planning algorithms (A*, RRT)
--   Obstacle avoidance
--   Voxel-based 3D navigation
--   Computer vision integration
-
+True diagonal motion using velocity control
+Path planning algorithms (A*, RRT)
+Obstacle avoidance
+Voxel-based 3D navigation
+Integration with computer vision (YOLO, SLAM)
 📜 License
 
-MIT License
+This project is licensed under the MIT License.
 
 👨‍💻 Author
 
 Kanishk Patel
+
+⭐ Support
+
+If you like this project, consider giving it a star ⭐ on GitHub!
+
+
+---
+
+## ✅ Next Step (important)
+
+After adding this:
+
+```bash
+git add README.md
+git commit -m "Added professional README with demo sections"
+git push
