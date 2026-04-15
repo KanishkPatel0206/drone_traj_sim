@@ -1,8 +1,7 @@
 # 🚁 Drone Trajectory Simulation
 
 ## 📌 Overview
-This project demonstrates basic drone control using the `pysimverse` simulation environment. The drone performs takeoff, speed adjustment, and iterative forward and lateral movements to create a diagonal trajectory pattern. 
-
+This project demonstrates basic drone control using the `pysimverse` simulation environment. The drone performs takeoff, speed adjustment, and iterative forward and lateral movements to create a diagonal trajectory pattern.  
 It serves as a foundational step toward building autonomous drone systems involving path planning, environment mapping, and computer vision.
 
 ---
@@ -53,16 +52,17 @@ It serves as a foundational step toward building autonomous drone systems involv
 
 ## 📂 Project Structure
 
+```
 drone_traj_sim/
 │── main.py
 │── README.md
 │── .gitignore
 │── LICENSE
 │── assets/
-│ ├── demo.gif
-│ ├── image1.png
-│ └── image2.png
-
+│   ├── demo.gif
+│   ├── image1.png
+│   └── image2.png
+```
 
 ---
 
@@ -72,36 +72,38 @@ drone_traj_sim/
 ```bash
 git clone https://github.com/KanishkPatel0206/drone_traj_sim.git
 cd drone_traj_sim
-2. Install dependencies
+```
+
+### 2. Install dependencies
+```bash
 pip install pysimverse
-3. Run the script
+```
+
+### 3. Run the script
+```bash
 python main.py
-🔄 Future Improvements
-True diagonal motion using velocity control
-Path planning algorithms (A*, RRT)
-Obstacle avoidance
-Voxel-based 3D navigation
-Integration with computer vision (YOLO, SLAM)
-📜 License
-
-This project is licensed under the MIT License.
-
-👨‍💻 Author
-
-Kanishk Patel
-
-⭐ Support
-
-If you like this project, consider giving it a star ⭐ on GitHub!
-
+```
 
 ---
 
-## ✅ Next Step (important)
+## 🔄 Future Improvements
+- True diagonal motion using velocity control  
+- Path planning algorithms (A\*, RRT)  
+- Obstacle avoidance  
+- Voxel-based 3D navigation  
+- Integration with computer vision (YOLO, SLAM)  
 
-After adding this:
+---
 
-```bash
-git add README.md
-git commit -m "Added professional README with demo sections"
-git push
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+**Kanishk Patel**
+
+---
+
+## ⭐ Support
+If you like this project, consider giving it a star ⭐ on [GitHub](https://github.com/KanishkPatel0206/drone_traj_sim)!
